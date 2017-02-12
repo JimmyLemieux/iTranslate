@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A18A5591E344FB500425B0A /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A18A5581E344FB500425B0A /* unnamed.png */; };
+		1A18A55B1E34518D00425B0A /* ios in Resources */ = {isa = PBXBuildFile; fileRef = 1A18A55A1E34518C00425B0A /* ios */; };
+		1A4A96171E33EC490012BA28 /* Tesseract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4A96161E33EC490012BA28 /* Tesseract.swift */; };
+		1A6DE61E1E3710C900521958 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 1A6DE61D1E3710C900521958 /* tessdata */; };
+		1A6DE6201E387C7B00521958 /* AudioRec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DE61F1E387C7B00521958 /* AudioRec.swift */; };
 		1AF7E40D1E228199002C004D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7E40C1E228199002C004D /* AppDelegate.swift */; };
 		1AF7E40F1E228199002C004D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7E40E1E228199002C004D /* ViewController.swift */; };
 		1AF7E4121E228199002C004D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF7E4101E228199002C004D /* Main.storyboard */; };
 		1AF7E4141E228199002C004D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF7E4131E228199002C004D /* Assets.xcassets */; };
 		1AF7E4171E228199002C004D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF7E4151E228199002C004D /* LaunchScreen.storyboard */; };
+		1AF7E4211E2298D9002C004D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7E4201E2298D9002C004D /* SwiftyJSON.swift */; };
+		1AF7E4231E22A7D9002C004D /* TranslateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7E4221E22A7D9002C004D /* TranslateView.swift */; };
+		96552EAB64CB13C160D09E92 /* Pods_Translatev2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C0A4938C8427716B22C946 /* Pods_Translatev2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A18A5581E344FB500425B0A /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
+		1A18A55A1E34518C00425B0A /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ios; sourceTree = "<group>"; };
+		1A4A96161E33EC490012BA28 /* Tesseract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tesseract.swift; sourceTree = "<group>"; };
+		1A6DE61D1E3710C900521958 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		1A6DE61F1E387C7B00521958 /* AudioRec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRec.swift; sourceTree = "<group>"; };
 		1AF7E4091E228199002C004D /* Translatev2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Translatev2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF7E40C1E228199002C004D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AF7E40E1E228199002C004D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,11 @@
 		1AF7E4131E228199002C004D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AF7E4161E228199002C004D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AF7E4181E228199002C004D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF7E4201E2298D9002C004D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		1AF7E4221E22A7D9002C004D /* TranslateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslateView.swift; sourceTree = "<group>"; };
+		29C0A4938C8427716B22C946 /* Pods_Translatev2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Translatev2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		903C35C70C2F6198BF219E8A /* Pods-Translatev2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Translatev2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Translatev2/Pods-Translatev2.debug.xcconfig"; sourceTree = "<group>"; };
+		CFC9AE8C4BC096CEAA2B0BB6 /* Pods-Translatev2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Translatev2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Translatev2/Pods-Translatev2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96552EAB64CB13C160D09E92 /* Pods_Translatev2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				1AF7E40B1E228199002C004D /* Translatev2 */,
 				1AF7E40A1E228199002C004D /* Products */,
+				2E7CB8CD7C0772594471AD99 /* Pods */,
+				5131FF6E91BF60D93796E589 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,38 @@
 		1AF7E40B1E228199002C004D /* Translatev2 */ = {
 			isa = PBXGroup;
 			children = (
+				1A6DE61F1E387C7B00521958 /* AudioRec.swift */,
 				1AF7E40C1E228199002C004D /* AppDelegate.swift */,
 				1AF7E40E1E228199002C004D /* ViewController.swift */,
+				1AF7E4221E22A7D9002C004D /* TranslateView.swift */,
+				1A4A96161E33EC490012BA28 /* Tesseract.swift */,
 				1AF7E4101E228199002C004D /* Main.storyboard */,
+				1A6DE61D1E3710C900521958 /* tessdata */,
 				1AF7E4131E228199002C004D /* Assets.xcassets */,
 				1AF7E4151E228199002C004D /* LaunchScreen.storyboard */,
 				1AF7E4181E228199002C004D /* Info.plist */,
+				1AF7E4201E2298D9002C004D /* SwiftyJSON.swift */,
+				1A18A55A1E34518C00425B0A /* ios */,
+				1A18A5581E344FB500425B0A /* unnamed.png */,
 			);
 			path = Translatev2;
+			sourceTree = "<group>";
+		};
+		2E7CB8CD7C0772594471AD99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				903C35C70C2F6198BF219E8A /* Pods-Translatev2.debug.xcconfig */,
+				CFC9AE8C4BC096CEAA2B0BB6 /* Pods-Translatev2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5131FF6E91BF60D93796E589 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29C0A4938C8427716B22C946 /* Pods_Translatev2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AF7E41B1E228199002C004D /* Build configuration list for PBXNativeTarget "Translatev2" */;
 			buildPhases = (
+				E24C3F73A87CE3D820772546 /* [CP] Check Pods Manifest.lock */,
 				1AF7E4051E228199002C004D /* Sources */,
 				1AF7E4061E228199002C004D /* Frameworks */,
 				1AF7E4071E228199002C004D /* Resources */,
+				6993F196D751F5F4CD647971 /* [CP] Embed Pods Frameworks */,
+				9425F3BA84EBC3E1B87B53DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,19 +174,74 @@
 			files = (
 				1AF7E4171E228199002C004D /* LaunchScreen.storyboard in Resources */,
 				1AF7E4141E228199002C004D /* Assets.xcassets in Resources */,
+				1A18A5591E344FB500425B0A /* unnamed.png in Resources */,
 				1AF7E4121E228199002C004D /* Main.storyboard in Resources */,
+				1A18A55B1E34518D00425B0A /* ios in Resources */,
+				1A6DE61E1E3710C900521958 /* tessdata in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6993F196D751F5F4CD647971 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Translatev2/Pods-Translatev2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9425F3BA84EBC3E1B87B53DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Translatev2/Pods-Translatev2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E24C3F73A87CE3D820772546 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1AF7E4051E228199002C004D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A4A96171E33EC490012BA28 /* Tesseract.swift in Sources */,
+				1A6DE6201E387C7B00521958 /* AudioRec.swift in Sources */,
+				1AF7E4231E22A7D9002C004D /* TranslateView.swift in Sources */,
 				1AF7E40F1E228199002C004D /* ViewController.swift in Sources */,
 				1AF7E40D1E228199002C004D /* AppDelegate.swift in Sources */,
+				1AF7E4211E2298D9002C004D /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,12 +285,14 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -232,12 +337,14 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -259,10 +366,12 @@
 		};
 		1AF7E41C1E228199002C004D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903C35C70C2F6198BF219E8A /* Pods-Translatev2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CXLE34S3L2;
 				INFOPLIST_FILE = Translatev2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Translatev2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,10 +381,12 @@
 		};
 		1AF7E41D1E228199002C004D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC9AE8C4BC096CEAA2B0BB6 /* Pods-Translatev2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CXLE34S3L2;
 				INFOPLIST_FILE = Translatev2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Translatev2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +413,7 @@
 				1AF7E41D1E228199002C004D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
